@@ -1,0 +1,295 @@
+body
+{
+    margin:0;
+    padding:0;
+}
+
+
+header{
+height:100vh;
+background-size: cover;
+background-position:  center center;
+background-image:linear-gradient( rgba(0,0,0,0.9),rgba(26, 19, 19, 0.6)),url("https://media2.giphy.com/media/cmH1W6JpsSdRscfbgn/giphy.gif");
+-webkit-background-size:cover;
+position: relative;
+text-align: center;
+color:white;
+font-size:20px;
+}
+
+.home{
+    background-color: teal;
+}
+.main-nav
+{
+    display: flex;
+    justify-content: flex-end;
+    list-style: none;
+    margin-top: 0px;
+}
+.main-nav li
+{
+    display: inline-block;
+}       
+.main-nav li a
+{
+    color:rgb(6, 252, 252);
+    text-decoration: none;
+    padding:5px 20px;
+    font-family:"Roboto",sans-serif;
+    font-size: 15px;
+}
+.main-nav li.active a
+{
+    border: 1px solid blueviolet;
+}
+.main-nav li a:hover
+{
+    border: 1px solid burlywood;
+}
+
+body
+{
+    font-family: monospace;
+}
+.row
+{max-width: 1200px;
+margin: auto;}
+
+.heroine
+{
+width: 50px;
+margin-left: 400px;
+margin-top: 300px;
+text-transform: uppercase;
+}
+h1
+{
+    color:red;
+    text-transform: uppercase;
+    font-size: 10px;
+    text-align: center;
+    margin-top: 10px;
+    
+
+}
+.sentence{
+text-align: center;
+vertical-align: bottom;
+justify-content: center;
+float: inline-start;
+}
+.button
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 0px;
+    margin-block-end: 0px;
+    text-align: center;
+    vertical-align: middle;
+    justify-content: center;
+}
+
+.btn
+{
+    border:1px solid brown;
+    padding: 10px 30px;
+    color:white;
+    text-decoration:none;
+    margin-right: 5px;
+    font-size:13px;
+    text-transform:uppercase;
+
+}
+.btn-one
+{
+    background-color: thistle;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+.btn-two
+{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.btn-two:hover
+{
+    background-color: blue;
+    transition: all 0.5s ease-in;
+}
+
+/*..........about me........*/
+#about-me.html body{
+    margin:0;
+ padding-top: 100px;
+padding-bottom: 150px;
+background-size: cover;
+color: darkmagenta;
+height:100vh;
+}
+.img-wrap{width:100%}
+.img-wrap img{width:100%;padding:10px;border-radius:50%;box-shadow:0 0 10px,rgba(107, 24, 24, 0.6)}
+
+.h1
+{
+    color:red;
+    text-transform:uppercase;
+    font-family: 'Roboto', sans-serif;
+    font-style: italic;
+    font-display: red;
+    font-size: 60px;
+    text-align: center;
+    margin-top: 100px;
+    padding: 10px;
+    padding-left:  200px;
+    text-align: left;
+}
+.quote
+{padding-top: 10px;
+    color:white;
+    font-size: 20px;
+    
+}
+
+#aboutme h2{
+    margin-bottom:25px;
+}
+
+.footer{
+    width:100%;
+    height:auto;
+    background-color: #333;
+    color:#20c475;
+    font-size: 23px;
+
+    text-align:center
+}
+
+.element style
+{
+    width:10px;
+    height:10px;
+    float:flex;
+    display: flex;
+    justify-content: flex-end;
+}
+
+ @import url('https://fonts.googleapis.com/css?family=Roboto');
+*{
+    box-sizing:border-box;
+    outline:none;
+}
+
+/*.........contact page......*/
+.body{  
+    background: url('image.jpg') no-repeat top center;
+    background-size: cover;
+    height: 100vh;
+    background-image:linear-gradient( rgba(0,0,0,0.5),rgba(0,0,0,0.7)),url(BUSINESS101.PNG);
+
+}
+.wrapper{
+position:absolute;
+top:50%;
+transform:translateY(-50%);
+width: 50%;
+height: 50%;
+padding:0 20px;
+margin-left:25%;
+}
+.contact-form{
+    max-width:550px;
+    margin:0 auto;
+    background: rgba(0,0,8);
+    padding: 30px;
+    border-radius: 5px;
+    display:flex;
+    box-shadow: 0 0 10px;
+}
+.input-fields{
+    display:flex;
+    flex-direction: column;
+    margin-right: 4%;
+
+}
+.input-fields,
+.msg{
+    width:48%
+}
+
+.input-fields.input,
+.msg textarea{
+    margin: 10px 0;
+    background: transparent;
+    border:0;
+    border-bottom: 2px solid #c5ec;
+    padding: 10px;
+    color: #c5ec;
+    width: 100%;
+}
+.msh textarea{
+    height: 212px;
+}
+::-webkit-input-placeholder{
+    color: #c5e;
+}
+
+::-moz-placeholder{
+    color: #c5ec;
+}
+
+::-ms-input-placeholder{
+    color: #1270ce;
+}
+
+.btn{
+    background:#369;
+    text-align: center;
+    padding: 15px;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+
+@media screen and (max-width:600px){
+    .contact-form{
+        flex-direction: column ;
+    }
+ .msg textarea{
+     height:80px;
+ }
+ .input-fields,
+ .msg{
+     width: 100%;
+ }
+
+}
+
+#socialmedia-icons
+{
+    background-color: teal;
+}
+/*......introduction........*/
+.wrapper
+{
+text-align:center;
+
+margin-right: 10px;
+flex-direction: column;
+font-display: blue;
+}
+.h3{
+
+    font-size:20px;
+    justify-content: space-between;
+}
+
+.img-fluid{
+    display:flex;
+    justify-content: center;
+    width:auto;
+    height:450px;
+}
+
